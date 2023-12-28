@@ -1,0 +1,154 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  border: none;
+}
+.danhmuc_main {
+  color: white;
+  padding-top: 30px;
+  margin: 50px 100px;
+  width: 800px;
+  background: var(--theme-color);
+  height: 550px;
+  border-radius: 10px;
+  text-align: center;
+}
+.danhmuc_body {
+  display: flex;
+  justify-content: space-around;
+}
+.dm_thuChi {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dm_thuChi h2 {
+  margin-bottom: 30px;
+}
+.dm_elm {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.dm_elm i {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.dm_elm img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dm_elm p {
+  font-size: 20px;
+}
+.dm_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  height: 300px;
+  width: 200px;
+  align-items: flex-start;
+}
+.danhmuc_add {
+  color: white;
+  width: 800px;
+  background: var(--theme-color);
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 100px;
+  padding: 30px 0;
+}
+.danhmuc_add form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dm_add_container {
+  display: flex;
+  width: 100%;
+}
+.dm_add_ele {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  position: relative;
+  width: 50%;
+}
+.dm_add {
+  font-size: 24px;
+  padding: 14px;
+  color: #2c3e50;
+}
+label {
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.dm_add_ele img {
+  position: absolute;
+  width: 15px;
+  height: 7px;
+  right: 25px;
+  bottom: 25px;
+}
+.dm_add_ele select {
+  height: 60px;
+  color: #93F /*#2c3e50*/;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0 15px;
+  font-size: 24px;
+}
+.dm_add_ele select option {
+  color: white;
+  background: var(--theme-color);
+  padding: 15px 30px;
+  width: inherit;
+  font-size: 24px;
+}
+#dm_add_sbm {
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  width: 170px;
+  background: #a0a4a8;
+  padding: 15px;
+  color: white;
+}
+#dm_add_sbm:hover {
+  background-color: var(--theme-color__hover);
+}
+.dm_edit {
+  position: absolute;
+
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 300px;
+  text-align: center;
+  background: rgb(0, 39, 90);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.dm_edit input {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.dm_edit div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dm_edit button {
+  font-size: 15px;
+  padding: 5px 10px;
+  background: white;
+}

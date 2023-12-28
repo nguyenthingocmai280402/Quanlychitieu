@@ -1,0 +1,175 @@
+.han-muc {
+  position: relative;
+}
+.themhanmuc {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 70%;
+  background: blueviolet;
+  /*var(--theme-color)*/;
+  height: 550px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_add_hm {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+}
+.add_hm_name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.add_hm_name input {
+  width: 96%;
+}
+.themhanmuc label {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.themhanmuc input,
+.themhanmuc select {
+  font-size: 24px;
+  padding: 14px;
+}
+.add_hm_2nd {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.add_hm_ele {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+}
+.add_hm_ele input {
+  width: 100%;
+}
+.add_hm_ele select {
+  width: 100%;
+}
+.add_hm_btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.add_hm_btn input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  /* background: #a0a4a8; */
+  color: black;
+  font-size: 20px;
+}
+
+.add_hm_btn input:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.han_muc_content {
+  width: 70%;
+  margin: 15px auto 20px;
+}
+.list_hm {
+  margin-top: 20px;
+  width: 100%;
+  background: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+.list_hm table {
+  width: 100%;
+}
+.list_hm thead {
+  font-size: 17px;
+  width: 100%;
+}
+.list_hm tbody {
+  font-size: 15px;
+  width: 100%;
+}
+.list_hm tr {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 10px 5px;
+}
+.list_hm thead tr {
+  border-bottom: 1px solid #fff;
+}
+.list_hm tr th:nth-child(1),
+.list_hm tr th:nth-child(2),
+.list_hm tr th:nth-child(3),
+.list_hm tr th:nth-child(4),
+.list_hm tr th:nth-child(5),
+.list_hm tr td:nth-child(1),
+.list_hm tr td:nth-child(2),
+.list_hm tr td:nth-child(3),
+.list_hm tr td:nth-child(4),
+.list_hm tr td:nth-child(5) {
+  width: calc((100% - 40px) / 5);
+}
+.list_hm tr th:nth-child(6),
+.list_hm tr th:nth-child(7),
+.list_hm tr td:nth-child(6),
+.list_hm tr td:nth-child(7) {
+  width: 40px;
+}
+.list_hm td i {
+  cursor: pointer;
+}
+.sua_han_muc {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: blueviolet;
+  ;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 300px;
+}
+.sua_han_muc h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sua_han_muc > div {
+  margin-bottom: 10px;
+}
+.sua_han_muc > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.sua_han_muc input {
+  width: 100%;
+  padding: 5px;
+}
+.sua_han_muc .ip_hm {
+  padding: 5px 10px;
+}
+.sua_han_muc button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: #fff;
+  color: black;
+  /* font-size: 20px; */
+}
+.sua_han_muc button:hover {
+  background-color: blueviolet;
+  color: white;
+}

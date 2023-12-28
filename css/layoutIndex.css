@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+:root {
+  --theme-color: #96F /*#2c3e50*/;
+  --theme-color__hover:#CCC /*#182533*/;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*============ Code layout =============*/
+.layout-left {
+  width: 300px;
+  height: 100vh;
+  background-color: var(--theme-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.layout-right {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  position: relative;
+}
+
+/*====================== Code layout left================== */
+.top-left {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 2rem;
+  color: white;
+}
+.logo a {
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.logo a > img {
+  width: 100%;
+  height: auto;
+}
+.logo + div {
+  font-size: 1.5rem;
+}
+.menu > li {
+  padding: 15px 10px;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.menu > li i {
+  margin-right: 10px;
+}
+.menu > li:hover,
+.menu .active {
+  padding-left: 25px;
+  background-color: var(--theme-color__hover);
+}
+.name-custome {
+  cursor: pointer;
+}
+.account {
+  position: relative;
+}
+.account:hover .account_option {
+  display: block;
+}
+.account_option {
+  display: none;
+  position: absolute;
+  top: -150%;
+  left: 60%;
+  width: 200px;
+  background: var(--theme-color__hover);
+  font-size: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.account_option div {
+  padding: 10px;
+  cursor: pointer;
+}
+.account_option div:hover {
+  background-color: #3e5b77;
+}
+.btn:hover {
+  color: white !important;
+  background-color: var(--theme-color__hover);
+}
+.account_show {
+  position: absolute;
+  z-index: 900;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--theme-color);
+  color: white;
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.account_show h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.account_show_info div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.account_show_info div div {
+  width: 50%;
+  padding: 0 5px;
+  font-size: 15px;
+}
+.close_info {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+}
+.change_pass form {
+  font-size: 15px;
+}
+.change_pass form div {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.change_pass form input {
+  width: 220px;
+  padding: 5px;
+  height: 30px;
+  line-height: 35px;
+  border-radius: 5px;
+}
+.change_pass form button {
+  padding: 5px 10px;
+  background-color:#9FF /*#6f7b86*/;
+  border-radius: 5px;
+  color: white;
+}
+.change_pass form button:hover {
+  background-color: var(--theme-color__hover);
+}

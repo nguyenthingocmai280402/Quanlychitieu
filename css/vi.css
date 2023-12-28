@@ -1,0 +1,142 @@
+.content-vi {
+  padding: 30px 200px;
+}
+
+.button {
+  background-color:blueviolet;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 155px;
+}
+
+.button:hover {
+  color: white !important;
+  background-color: var(--theme-color__hover);
+}
+
+.btn_themhanmuc {
+  float: right;
+}
+
+.grid_vi {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.table {
+  background-color:  blueviolet;
+  ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.table thead td,
+.table thead th {
+  font-size: 16px;
+}
+
+.table tbody td,
+.table tbody th {
+  font-size: 20px;
+}
+
+.chuyen-tien {
+  background-color: blueviolet;
+  ;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row_chuyen_tien select,
+.row_chuyen_tien input {
+  width: 90%;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.btn_chuyentien {
+  background-color: #6f7b86;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 155px;
+  margin: 50px auto 0;
+}
+.btn_chuyentien:hover {
+  background-color: var(--theme-color__hover);
+}
+.so-tien {
+  margin-top: 25px;
+}
+.list-vi i {
+  cursor: pointer;
+}
+.vi_add,
+.vi_edit {
+  position: absolute;
+  width: 300px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(0, 39, 90);
+  padding: 20px 30px;
+  border-radius: 5px;
+  z-index: 999;
+  color: white;
+}
+.vi_add h3,
+.vi_edit h3 {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.vi_add input,
+.vi_edit input {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.vi_add label,
+.vi_edit label {
+  font-size: 15px;
+}
+.vi_add div,
+.vi_edit div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.vi_add button,
+.vi_edit button {
+  font-size: 15px;
+  padding: 5px 10px;
+  background: white;
+}

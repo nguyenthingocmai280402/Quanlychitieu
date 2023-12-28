@@ -1,0 +1,108 @@
+.modal-chi-tieu,
+.chi-tieu-top {
+  width: 70%;
+  margin: 5px auto 0;
+}
+.chi-tieu,
+.thu-nhap {
+  position: relative;
+}
+.modal-chi-tieu {
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn-top {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: white;
+  background: var(--theme-color);
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn-xoa-chi-tieu {
+  cursor: pointer;
+}
+.list-chi-tieu {
+  margin-top: 20px;
+  background: var(--theme-color);
+  color: white;
+  padding: 10px 20px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.list-chi-tieu__info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.row-chi-tieu {
+  padding: 10px 0;
+  font-size: 15px;
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+.row-chi-tieu span {
+  display: block;
+  width: 20%;
+}
+.modal-chi-tieu {
+  color: white;
+  background-color: var(--theme-color);
+}
+.modal-chi-tieu h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.form-chi-tieu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-chi-tieu > div {
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.form-chi-tieu > div textarea {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 10px;
+}
+.form-chi-tieu > div.half-form {
+  width: 50%;
+}
+.form-chi-tieu > div input,
+.form-chi-tieu select {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 15px;
+  padding: 5px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+
+.form-chi-tieu > div label {
+  font-size: 20px;
+}
+.form-chi-tieu__btn {
+  display: flex;
+  justify-content: space-between;
+}
+.form-chi-tieu__btn button {
+  background-color: white;
+  color: black;
+}
